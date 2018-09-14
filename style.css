@@ -1,0 +1,50 @@
+
+.results,
+h1,
+.search-form {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+h1{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 5em;
+  text-shadow: 0 0 30px #9840fb, 0 0 25px #fd6769;
+  color: #2afd9c;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results img{
+  width: 50vw;
+  height: auto;
+  margin: 10px;
+}
+
+.search-bar{
+  font-size: 20px;
+  width: 30%;
+  height: 5vh;
+  box-shadow: 10px 10px #fd6769;
+  font-family: 'Do Hyeon', sans-serif;
+  margin-right: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.btn{
+height: 5vh;
+border-radius: 15px;
+font-family: 'Do Hyeon', sans-serif;
+font-size: 20px;
+padding-top: 4px;
+color: #9840fb; 
+}
